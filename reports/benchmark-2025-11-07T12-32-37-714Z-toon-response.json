@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:32:37 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=3019",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here's a summary of the marketing performance data:\n\n*   **Key Trends:**\n    *   NA campaigns show strong revenue generation relative to spend.\n    *   APAC campaigns have higher churn rates, particularly APAC-RETENTION-CX.\n    *   Experiments show positive lift, especially \"Tiered Rewards\" (NA) and \"Gamified Onboarding\" (APAC).\n\n*   **Risks:**\n    *   High churn in APAC, especially within the APAC-RETENTION-CX campaign, threatens revenue.\n    *   Power Users pain points (roadmap visibility, feature delays) could impact retention.\n\n*   **Strategic Experiments:**\n    1.  **Power User Insider Program (NA):** Address \"lack of roadmap visibility\" by testing an exclusive update program. Metric: Power User Retention.\n    2.  **Guided Onboarding (APAC):** Deploy guided onboarding for Growth Accounts in APAC to address \"slow onboarding.\" Metric: Growth Account Churn Rate.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.26776383301922096
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "4uYNaeblOPvZjuMPiMDy0Ag",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 214,
+    "totalTokenCount": 1213,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 214
+      }
+    ]
+  }
+}

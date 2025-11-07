@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:34:29 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=3010",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar (NA) and Gamified Onboarding (APAC) showed positive lift in premium conversion and feature adoption, respectively.\",\n      \"Tiered Rewards (NA) improved retention.\",\n      \"APAC churn rates are higher than North America, especially in 'APAC-RETENTION-CX'.\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC-RETENTION-CX campaign indicates potential issues with customer experience.\",\n      \"Delayed feature releases are a pain point for Power Users, potentially impacting retention.\"\n    ],\n    \"recommendations\": [\n      {\n        \"experiment\": \"Implement 'Bundle advanced analytics' for Power Users (NA) to address roadmap visibility and feature release concerns.\",\n        \"rationale\": \"Addresses Power User pain points and leverages existing premium penetration.\"\n      },\n      {\n        \"experiment\": \"Deploy 'Guided onboarding' for Growth Accounts (APAC) to improve initial user experience and reduce churn.\",\n        \"rationale\": \"Addresses Growth Accounts' onboarding pain points and targets a large customer segment.\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.25464327326080677
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "UucNadbyEo22juMPirnj-A8",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 257,
+    "totalTokenCount": 1655,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 257
+      }
+    ]
+  }
+}

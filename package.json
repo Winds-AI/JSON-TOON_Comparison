@@ -1,0 +1,20 @@
+{
+  "name": "toon-format-testing",
+  "version": "1.0.0",
+  "description": "Benchmark JSON vs TOON payloads when calling Gemini models",
+  "type": "module",
+  "scripts": {
+    "benchmark": "tsx src/toon-vs-json.ts"
+  },
+  "dependencies": {
+    "@byjohann/toon": "^0.3.1",
+    "@google/genai": "^1.29.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^20.17.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

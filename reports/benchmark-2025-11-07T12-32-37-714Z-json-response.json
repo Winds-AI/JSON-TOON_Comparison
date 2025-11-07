@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:32:36 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2293",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar significantly improved premium conversions in North America.\",\n      \"Tiered Rewards program boosted retention in North America.\",\n      \"Gamified Onboarding increased feature adoption in APAC.\",\n      \"Localized Playbooks are showing promise in improving customer satisfaction in APAC.\"\n    ],\n    \"risks\": [\n      \"APAC's churn rate is significantly higher than North America's.\",\n      \"Growth Accounts segment has low premium penetration.\"\n    ],\n    \"recommendations\": [\n      \"Experiment 1: Implement 'Guided Onboarding' for Growth Accounts in North America to address slow onboarding and increase premium penetration.\",\n      \"Experiment 2: Test 'Insider Updates Program' for Power Users in APAC to address lack of roadmap visibility and improve retention.\"\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.20830671118680763
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "4uYNabzBLre64-EPlsnD0Qs",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 1587,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 189
+      }
+    ]
+  }
+}

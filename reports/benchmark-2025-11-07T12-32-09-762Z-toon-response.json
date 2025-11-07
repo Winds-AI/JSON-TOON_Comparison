@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:32:09 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2738",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```toon\n**Q3 2025 Marketing Performance Summary**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" & \"Tiered Rewards\" experiments showed positive lift.\n    *   APAC: High churn in \"APAC-RETENTION-CX\" despite spend. \"Gamified Onboarding\" improved feature adoption.\n    *   Power Users: High premium penetration, focus on roadmap visibility.\n    *   Growth Accounts: Lower premium penetration, onboarding and support are key.\n\n*   **Risks:**\n    *   High churn in APAC, especially \"APAC-RETENTION-CX\" campaign.\n    *   Potential for churn among Power Users due to pain points.\n\n*   **Strategic Experiments:**\n    1.  **Power User Insider Program (NA):** Address roadmap visibility pain point. Track engagement and satisfaction.\n    2.  **Guided Onboarding (APAC):** Adapt NA's successful onboarding strategies for Growth Accounts. Measure activation rates.\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.27202332461321793
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "x-YNabmjBs3Dg8UP0KiH0Ag",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 216,
+    "totalTokenCount": 1215,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 216
+      }
+    ]
+  }
+}

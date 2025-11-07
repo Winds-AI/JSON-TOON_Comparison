@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:33:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2476",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```toon\n**Q3 2025 Marketing Performance Summary**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" & \"Tiered Rewards\" experiments showed positive lift.\n    *   APAC: High churn in \"APAC-RETENTION-CX\" despite spend. \"Gamified Onboarding\" improved feature adoption.\n*   **Risks:**\n    *   High churn in APAC, especially \"APAC-RETENTION-CX,\" impacting revenue.\n    *   NA \"Referral Booster\" experiment lift is marginal.\n*   **Strategic Experiments:**\n    1.  **Power User Roadmap Visibility (NA):** Test an \"insider updates program\" (email/in-app) targeting Power Users to improve retention.\n    2.  **Growth Account Onboarding (APAC):** Deploy \"guided onboarding\" (in-app/support) for Growth Accounts in APAC to reduce churn.\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.20145577577809196
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "GucNabejIO2u4-EPxKT1wQs",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 1200,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 201
+      }
+    ]
+  }
+}

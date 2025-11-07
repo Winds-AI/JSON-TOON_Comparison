@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:34:55 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2145",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar in NA shows promise for premium conversion.\",\n      \"Tiered Rewards in NA significantly improved retention.\",\n      \"Gamified Onboarding in APAC boosted feature adoption.\",\n      \"APAC's churn rate is higher than North America's.\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC, particularly in the APAC-RETENTION-CX campaign.\",\n      \"Potential for churn among Power Users due to lack of roadmap visibility.\"\n    ],\n    \"recommendations\": [\n      \"Experiment 1: Implement a 'switch-and-save' offer for Growth Accounts in North America to boost premium adoption.\",\n      \"Experiment 2: Launch an 'insider updates program' for Power Users in both regions to improve retention.\"\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.2341030240058899
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "bucNaf4jgbLj4Q_N5-zwDw",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 1590,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 192
+      }
+    ]
+  }
+}

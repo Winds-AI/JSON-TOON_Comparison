@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:35:53 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2706",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here's a summary of the marketing performance data:\n\n*   **Key Trends:** North America shows strong ROI, especially NA-FREEMIUM-GROWTH. APAC has higher churn rates, particularly in APAC-RETENTION-CX. Experiments show positive lift in key metrics like premium conversion and retention.\n\n*   **Risks:** High churn in APAC-RETENTION-CX needs immediate attention. Underperforming regions need tailored strategies.\n\n*   **Strategic Experiments:**\n    1.  **Power User Roadmap Visibility:** Implement an \"insider updates program\" for Power Users in North America to address roadmap visibility pain points and improve retention.\n    2.  **Growth Account Guided Onboarding:** Deploy \"guided onboarding\" for Growth Accounts in APAC to address slow onboarding and improve retention.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.28761394914374294
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "pucNaZf8LfLHjuMP_diJuAE",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 1165,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 166
+      }
+    ]
+  }
+}

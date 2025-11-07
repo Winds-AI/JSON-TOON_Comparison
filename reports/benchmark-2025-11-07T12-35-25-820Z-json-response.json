@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:35:25 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=4169",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar (NA) and Gamified Onboarding (APAC) showed significant lift in premium conversion and feature adoption, respectively.\",\n      \"Referral Booster (NA) and Localized Playbooks (APAC) are showing positive trends in their respective metrics.\",\n      \"APAC's churn rate is higher than North America's, indicating a potential issue with customer retention in that region.\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC, particularly in the APAC-RETENTION-CX campaign, needs immediate attention.\",\n      \"Reliance on specific channels (e.g., Line in APAC) could be a risk if those channels become less effective.\"\n    ],\n    \"recommendations\": [\n      \"Prioritize retention efforts in APAC, focusing on understanding the root causes of churn.\",\n      \"Explore expanding successful experiments (Upsell Progress Bar, Gamified Onboarding) to other regions.\"\n    ],\n    \"next_experiments\": [\n      {\n        \"region\": \"APAC\",\n        \"campaign\": \"APAC-RETENTION-CX\",\n        \"experiment\": \"Deploy guided onboarding\",\n        \"rationale\": \"Address slow onboarding pain point for Growth Accounts, potentially reducing churn.\"\n      },\n      {\n        \"region\": \"North America\",\n        \"campaign\": \"NA-FREEMIUM-GROWTH\",\n        \"experiment\": \"Bundle advanced analytics\",\n        \"rationale\": \"Address lack of roadmap visibility pain point for Power Users, potentially increasing retention.\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.1856242161171109
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "iecNaYjiNfPbjuMPlOWTqAM",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 357,
+    "totalTokenCount": 1755,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 357
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "datasetId": "regional-campaign-performance",
+  "period": "Q3-2025",
+  "marketingObjectives": [
+    "Increase retention among high-value cohorts",
+    "Boost cross-sell adoption for premium add-ons",
+    "Reduce churn in underperforming regions"
+  ],
+  "regions": [
+    {
+      "name": "North America",
+      "currency": "USD",
+      "campaigns": [
+        {
+          "id": "NA-FREEMIUM-GROWTH",
+          "channelMix": {
+            "email": 0.38,
+            "inApp": 0.24,
+            "socialPaid": 0.18,
+            "webRetargeting": 0.2
+          },
+          "metrics": {
+            "spend": 120000,
+            "revenue": 342000,
+            "newUsers": 18500,
+            "churnRate": 0.042,
+            "retainedRevenue": 228000
+          },
+          "experiments": [
+            {
+              "name": "Upsell Progress Bar",
+              "status": "completed",
+              "lift": {
+                "metric": "premiumConversion",
+                "baseline": 0.142,
+                "treatment": 0.182
+              }
+            },
+            {
+              "name": "Referral Booster",
+              "status": "running",
+              "lift": {
+                "metric": "referralsPer1000Users",
+                "baseline": 14.2,
+                "treatment": 17.9
+              }
+            }
+          ]
+        },
+        {
+          "id": "NA-LOYALTY-REVIVAL",
+          "channelMix": {
+            "email": 0.25,
+            "push": 0.33,
+            "sms": 0.15,
+            "partnerships": 0.27
+          },
+          "metrics": {
+            "spend": 68000,
+            "revenue": 145500,
+            "newUsers": 6200,
+            "churnRate": 0.038,
+            "retainedRevenue": 101300
+          },
+          "experiments": [
+            {
+              "name": "Tiered Rewards",
+              "status": "completed",
+              "lift": {
+                "metric": "retentionAfter90Days",
+                "baseline": 0.64,
+                "treatment": 0.71
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "APAC",
+      "currency": "JPY",
+      "campaigns": [
+        {
+          "id": "APAC-CROSSSELL-PLUS",
+          "channelMix": {
+            "email": 0.3,
+            "line": 0.36,
+            "sms": 0.08,
+            "affiliate": 0.26
+          },
+          "metrics": {
+            "spend": 5400000,
+            "revenue": 12800000,
+            "newUsers": 22100,
+            "churnRate": 0.058,
+            "retainedRevenue": 8400000
+          },
+          "experiments": [
+            {
+              "name": "Gamified Onboarding",
+              "status": "completed",
+              "lift": {
+                "metric": "featureAdoption",
+                "baseline": 0.28,
+                "treatment": 0.36
+              }
+            }
+          ]
+        },
+        {
+          "id": "APAC-RETENTION-CX",
+          "channelMix": {
+            "email": 0.22,
+            "inApp": 0.41,
+            "support": 0.2,
+            "community": 0.17
+          },
+          "metrics": {
+            "spend": 3100000,
+            "revenue": 9900000,
+            "newUsers": 14500,
+            "churnRate": 0.071,
+            "retainedRevenue": 6120000
+          },
+          "experiments": [
+            {
+              "name": "Localized Playbooks",
+              "status": "running",
+              "lift": {
+                "metric": "customerSatisfaction",
+                "baseline": 7.8,
+                "treatment": 8.4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "customerSegments": [
+    {
+      "name": "Power Users",
+      "size": 182000,
+      "premiumPenetration": 0.54,
+      "retentionFocus": {
+        "painPoints": ["lack of roadmap visibility", "delayed feature releases"],
+        "recommendedActions": [
+          "Launch insider updates program",
+          "Expand beta testing group",
+          "Bundle advanced analytics"
+        ]
+      }
+    },
+    {
+      "name": "Growth Accounts",
+      "size": 425000,
+      "premiumPenetration": 0.31,
+      "retentionFocus": {
+        "painPoints": ["slow onboarding", "limited support hours"],
+        "recommendedActions": [
+          "Deploy guided onboarding",
+          "Extend concierge support",
+          "Promote switch-and-save offers"
+        ]
+      }
+    }
+  ]
+}

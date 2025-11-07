@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:34:01 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2788",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**TOON: Q3 2025 Marketing Performance**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" boosted premium conversions. \"Tiered Rewards\" improved retention.\n    *   APAC: \"Gamified Onboarding\" increased feature adoption. High churn in APAC-RETENTION-CX campaign.\n    *   Power Users: High premium penetration, focus on roadmap visibility.\n    *   Growth Accounts: Lower premium penetration, onboarding issues.\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX campaign needs immediate attention.\n    *   Growth Accounts' low premium penetration limits revenue potential.\n\n*   **Strategic Experiments:**\n    1.  **NA: \"Referral Booster\" Expansion:** Given positive early results, scale the \"Referral Booster\" experiment across all NA campaigns to drive new user acquisition.\n    2.  **APAC: \"Concierge Onboarding\" Pilot:** Address Growth Accounts' onboarding pain points in APAC with a pilot program offering dedicated support, measuring impact on premium conversion and retention.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.25581881260767775
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "NucNaa7AJcvljuMPj67e-Q8",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 229,
+    "totalTokenCount": 1228,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 229
+      }
+    ]
+  }
+}

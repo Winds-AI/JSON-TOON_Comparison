@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:31:42 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=3620",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar and Tiered Rewards experiments showed positive lift in North America.\",\n      \"Gamified Onboarding improved feature adoption in APAC.\",\n      \"APAC's APAC-RETENTION-CX campaign has a high churn rate (7.1%).\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC-RETENTION-CX campaign needs immediate attention.\",\n      \"Potential churn risk among Power Users due to lack of roadmap visibility and delayed feature releases.\"\n    ],\n    \"recommendations\": [\n      \"Prioritize experiments addressing high churn in APAC-RETENTION-CX.\",\n      \"Address Power Users' pain points to improve retention.\"\n    ],\n    \"nextExperiments\": [\n      {\n        \"region\": \"APAC\",\n        \"campaign\": \"APAC-RETENTION-CX\",\n        \"experiment\": \"Personalized Support Flows\",\n        \"rationale\": \"To reduce churn by providing targeted assistance.\"\n      },\n      {\n        \"region\": \"Global\",\n        \"segment\": \"Power Users\",\n        \"experiment\": \"Insider Updates Program\",\n        \"rationale\": \"To improve retention by addressing pain points related to roadmap visibility.\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.16888169021342453
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "quYNaZ36OcDZ4-EPzu_K6Q8",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 289,
+    "totalTokenCount": 1687,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 289
+      }
+    ]
+  }
+}

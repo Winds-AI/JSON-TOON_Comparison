@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:34:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=3051",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**TOON: Q3 2025 Marketing Performance**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" boosted premium conversions. \"Tiered Rewards\" improved retention.\n    *   APAC: \"Gamified Onboarding\" increased feature adoption. APAC's churn is higher than NA.\n*   **Risks:**\n    *   APAC's churn rate is significantly higher, especially in \"APAC-RETENTION-CX\".\n    *   \"Growth Accounts\" premium penetration is low.\n*   **Strategic Experiments:**\n    1.  **Growth Accounts Onboarding:** Implement \"Guided Onboarding\" for \"Growth Accounts\" in NA, measuring activation rate and early churn.\n    2.  **APAC Churn Intervention:** Test personalized support outreach in \"APAC-RETENTION-CX\", targeting users at high risk of churn, measuring churn reduction.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.2393257655010322
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "bucNabbaAvLJjuMP6MO0sAw",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 1192,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 193
+      }
+    ]
+  }
+}

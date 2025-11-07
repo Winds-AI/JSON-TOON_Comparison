@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:31:42 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=3471",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**TOON: Q3 2025 Marketing Performance**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" boosted premium conversions. \"Tiered Rewards\" improved retention.\n    *   APAC: \"Gamified Onboarding\" increased feature adoption. APAC retention campaign struggles with high churn.\n    *   Power Users have high premium penetration, focus on roadmap visibility.\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX campaign despite spend.\n    *   APAC overall churn (5.8-7.1%) is higher than North America (3.8-4.2%).\n\n*   **Strategic Experiments:**\n    1.  **APAC-RETENTION-CX: \"Personalized Support Tiers\"**: Test offering tiered support based on usage to improve customer satisfaction and reduce churn.\n    2.  **NA-FREEMIUM-GROWTH: \"Power User Beta Program\"**: Offer early access to new features for Power Users to address roadmap visibility pain points and increase retention.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.24632242928564022
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "quYNaZzEO8v24-EP8MXUgAQ",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 226,
+    "totalTokenCount": 1225,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 226
+      }
+    ]
+  }
+}

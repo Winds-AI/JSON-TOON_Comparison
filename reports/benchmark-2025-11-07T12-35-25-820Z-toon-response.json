@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:35:24 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2688",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```toon\n**Q3 2025 Marketing Performance Summary**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" & \"Tiered Rewards\" experiments showed positive lift.\n    *   APAC: High churn in \"APAC-RETENTION-CX\" despite spend. \"Gamified Onboarding\" improved feature adoption.\n*   **Risks:**\n    *   High churn in APAC, especially \"APAC-RETENTION-CX,\" impacting revenue.\n    *   NA \"Referral Booster\" experiment lift is marginal; needs review.\n*   **Strategic Experiments:**\n    1.  **Power User Roadmap Visibility (NA):** Address \"Power Users\" pain point by testing an in-app roadmap feature. Measure impact on retention.\n    2.  **Growth Account Guided Onboarding (APAC):** Deploy guided onboarding flows for \"Growth Accounts\" in APAC. Track onboarding completion rate and early churn.\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.27111173143573836
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "iecNaYm4K66kjuMPqY3jiAM",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 204,
+    "totalTokenCount": 1203,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 204
+      }
+    ]
+  }
+}

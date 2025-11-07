@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Fri, 07 Nov 2025 12:32:09 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2736",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar and Tiered Rewards experiments showed positive lift.\",\n      \"Referral Booster and Localized Playbooks are running with positive trends.\",\n      \"APAC's churn rate is higher than North America's.\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC-RETENTION-CX campaign.\",\n      \"Power Users pain points around roadmap visibility and feature releases.\"\n    ],\n    \"recommendations\": [\n      \"Prioritize churn reduction in APAC, especially for APAC-RETENTION-CX.\",\n      \"Address Power Users' pain points to improve retention.\"\n    ],\n    \"next_experiments\": [\n      {\n        \"region\": \"APAC\",\n        \"campaign\": \"APAC-RETENTION-CX\",\n        \"experiment\": \"Personalized Support Flows (A/B test different support pathways)\"\n      },\n      {\n        \"segment\": \"Power Users\",\n        \"experiment\": \"Insider Updates Program (pilot program with early access and roadmap previews)\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.19904327392578125
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "x-YNadXCEOW2juMPp5D96AM",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 248,
+    "totalTokenCount": 1646,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 248
+      }
+    ]
+  }
+}
