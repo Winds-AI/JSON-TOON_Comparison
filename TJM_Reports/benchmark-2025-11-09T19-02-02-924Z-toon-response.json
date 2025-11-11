@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:02:03 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2088",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```toon\n**Q3 2025 Marketing Performance Summary**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" & \"Tiered Rewards\" improved premium conversion & retention.\n    *   APAC: High churn in \"APAC-RETENTION-CX\" despite spend. \"Gamified Onboarding\" boosted feature adoption.\n*   **Risks:**\n    *   APAC churn rates are significantly higher than NA.\n    *   \"APAC-RETENTION-CX\" campaign underperforming despite high spend.\n*   **Strategic Experiments:**\n    1.  **Power User Roadmap Visibility (NA):** Address \"Power Users\" pain point by testing an in-app roadmap feature. Metric: Feature engagement.\n    2.  **Growth Account Guided Onboarding (APAC):** Implement guided onboarding for \"Growth Accounts\" in APAC. Metric: Onboarding completion rate.\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.21160232234122184
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "KeUQabP5FNecjuMP6uCKoAQ",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 1196,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 197
+      }
+    ]
+  }
+}

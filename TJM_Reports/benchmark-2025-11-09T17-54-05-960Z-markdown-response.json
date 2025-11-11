@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:54:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2652",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here's an analysis of the marketing performance data:\n\n*   **Key Trends:**\n    *   APAC-RETENTION-CX shows high revenue but also the highest churn rate.\n    *   NA-LOYALTY-REVIVAL has the lowest churn rate.\n    *   Upsell Progress Bar and Tiered Rewards experiments showed positive lift.\n    *   Email consistently performs well across regions.\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX needs immediate attention.\n    *   Growth Accounts segment struggles with onboarding and support.\n    *   Power Users segment struggles with roadmap visibility and feature releases.\n\n*   **Strategic Experiments:**\n    1.  **APAC Churn Reduction:** Implement a personalized onboarding flow for new users in APAC, focusing on key feature adoption (similar to the Gamified Onboarding experiment).\n    2.  **Growth Account Onboarding:** Test a dedicated onboarding specialist program for Growth Accounts, offering personalized support and guidance.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.28327852884928384
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "PNUQafnmKuzSqfkPiqSHsAo",
+  "usageMetadata": {
+    "promptTokenCount": 964,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 1174,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 964
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 210
+      }
+    ]
+  }
+}

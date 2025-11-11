@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:02:41 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2488",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here's an analysis of the marketing performance data:\n\n*   **Key Trends:**\n    *   APAC-RETENTION-CX shows high revenue but also the highest churn rate.\n    *   NA-FREEMIUM-GROWTH has the lowest spend but a decent revenue.\n    *   Tiered Rewards experiment in NA-LOYALTY-REVIVAL significantly improved retention.\n    *   Upsell Progress Bar experiment in NA-FREEMIUM-GROWTH improved premium conversion.\n    *   Gamified Onboarding experiment in APAC-CROSSSELL-PLUS improved feature adoption.\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX needs immediate attention.\n    *   Underperforming regions are not clearly identified, making churn reduction difficult.\n\n*   **Strategic Experiments:**\n    1.  **APAC Churn Reduction:** Implement a personalized support program in APAC-RETENTION-CX, focusing on high-churn segments. Track impact on churn rate.\n    2.  **Growth Account Onboarding:** Deploy guided onboarding for Growth Accounts in NA-FREEMIUM-GROWTH, measuring time-to-value and premium conversion.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.25898583347060117
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "TuUQaZTmM432juMPgbjM0QM",
+  "usageMetadata": {
+    "promptTokenCount": 964,
+    "candidatesTokenCount": 249,
+    "totalTokenCount": 1213,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 964
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 249
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:52:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=1833",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```toon\n**Q3 2025 Marketing Performance Summary**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" & \"Tiered Rewards\" experiments show promise.\n    *   APAC: High churn in \"APAC-RETENTION-CX\" despite spend. \"Gamified Onboarding\" boosted feature adoption.\n    *   Power Users have high premium penetration, focus on retention.\n\n*   **Risks:**\n    *   High churn in APAC, especially \"APAC-RETENTION-CX\".\n    *   NA \"Referral Booster\" experiment lift is marginal.\n\n*   **Strategic Experiments:**\n    1.  **Power User Insider Program (NA):** Address roadmap visibility pain point to improve retention.\n    2.  **Concierge Support Pilot (APAC):** Test extended support for Growth Accounts to reduce churn.\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.2534151685998795
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "ytQQac3eBY70g8UP0p2VmA4",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 1187,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 188
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Mon, 10 Nov 2025 04:54:13 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2283",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```toon\n**Q3 2025 Marketing Performance Summary**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" & \"Tiered Rewards\" experiments showed positive lift.\n    *   APAC: High churn in \"APAC-RETENTION-CX\" despite spend. \"Gamified Onboarding\" improved feature adoption.\n*   **Risks:**\n    *   APAC: High churn rate, especially in \"APAC-RETENTION-CX,\" impacting revenue.\n    *   NA: \"NA-LOYALTY-REVIVAL\" campaign has lower revenue compared to spend.\n*   **Strategic Experiments:**\n    1.  **Power User Roadmap Visibility (NA):** Implement an \"insider updates program\" for Power Users in North America to address roadmap visibility pain points and improve retention.\n    2.  **Growth Account Guided Onboarding (APAC):** Deploy \"guided onboarding\" for Growth Accounts in APAC to address slow onboarding and improve retention.\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.22071530683985296
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "828RaaDmGNzXjuMP07KD-AI",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 212,
+    "totalTokenCount": 1211,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 212
+      }
+    ]
+  }
+}

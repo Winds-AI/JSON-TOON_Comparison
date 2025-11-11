@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:54:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2084",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```toon\n**Q3 2025 Marketing Performance Summary**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" & \"Tiered Rewards\" boosted premium conversion & retention.\n    *   APAC: \"Gamified Onboarding\" improved feature adoption. High churn in APAC-RETENTION-CX is a concern.\n*   **Risks:**\n    *   APAC-RETENTION-CX campaign's high churn (7.1%) jeopardizes retention objectives.\n    *   Potential roadmap visibility and feature release pain points for Power Users.\n*   **Strategic Experiments:**\n    1.  **Power User Insider Program (NA):** Test impact of insider updates on Power User retention (retentionAfter90Days).\n    2.  **Guided Onboarding (APAC):** Implement guided onboarding for Growth Accounts in APAC to reduce churn (churnRate).\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.2348465357071314
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "PNUQaYepEPLJjuMP6MO0sAw",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 1194,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 195
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:52:50 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2545",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here's an analysis of the marketing performance data:\n\n*   **Key Trends:**\n    *   APAC-RETENTION-CX shows high revenue but also the highest churn rate.\n    *   NA-FREEMIUM-GROWTH has the lowest spend but a decent revenue-to-spend ratio.\n    *   Tiered Rewards experiment in NA-LOYALTY-REVIVAL significantly improved retention.\n    *   Upsell Progress Bar experiment in NA-FREEMIUM-GROWTH improved premium conversion.\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX threatens long-term revenue.\n    *   APAC-RETENTION-CX has a high spend, but the highest churn rate.\n    *   Power Users and Growth Accounts have retention issues.\n\n*   **Strategic Experiments:**\n    1.  **APAC Churn Reduction:** Implement a localized customer success program in APAC-RETENTION-CX, mirroring the NA-LOYALTY-REVIVAL tiered rewards approach.\n    2.  **Growth Account Onboarding:** Test a \"switch-and-save\" offer targeting Growth Accounts in NA-FREEMIUM-GROWTH to improve onboarding and retention.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.3026720233992034
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "79QQaYmSL5iG4-EPm7SW2Ag",
+  "usageMetadata": {
+    "promptTokenCount": 964,
+    "candidatesTokenCount": 255,
+    "totalTokenCount": 1219,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 964
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 255
+      }
+    ]
+  }
+}

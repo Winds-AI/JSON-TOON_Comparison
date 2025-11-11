@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:02:41 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2831",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar and Tiered Rewards experiments showed positive lift in North America.\",\n      \"Gamified Onboarding improved feature adoption in APAC.\",\n      \"APAC's churn rate is higher than North America's, indicating a risk.\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC, particularly in the APAC-RETENTION-CX campaign.\",\n      \"Potential churn among Power Users due to lack of roadmap visibility and delayed feature releases.\"\n    ],\n    \"recommendations\": [\n      {\n        \"experiment\": \"Launch insider updates program for Power Users in North America to address retention pain points.\",\n        \"rationale\": \"Addresses Power User pain points directly, leveraging successful retention strategies from NA-LOYALTY-REVIVAL.\"\n      },\n      {\n        \"experiment\": \"Deploy guided onboarding for Growth Accounts in APAC to improve premium penetration and reduce churn.\",\n        \"rationale\": \"Addresses Growth Account pain points directly, leveraging successful feature adoption strategies from APAC-CROSSSELL-PLUS.\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.218520814204121
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "T-UQaabZD6mNjuMPk7Sm4QM",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 251,
+    "totalTokenCount": 1649,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 251
+      }
+    ]
+  }
+}

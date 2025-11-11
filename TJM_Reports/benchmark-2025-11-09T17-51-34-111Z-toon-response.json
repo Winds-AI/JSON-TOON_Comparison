@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:51:34 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2316",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```toon\n**Q3 2025 Marketing Performance Summary**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" & \"Tiered Rewards\" boosted premium conversion & retention.\n    *   APAC: High revenue, but churn is a risk, especially in \"APAC-RETENTION-CX\". \"Gamified Onboarding\" improved feature adoption.\n\n*   **Risks:**\n    *   High churn in APAC, particularly for \"APAC-RETENTION-CX\" campaign.\n    *   \"Growth Accounts\" segment has low premium penetration.\n\n*   **Strategic Experiments:**\n    1.  **NA - Power User Roadmap:** Test an \"insider updates program\" (email/in-app) targeting Power Users in North America to improve retention.\n    2.  **APAC - Growth Account Onboarding:** Deploy \"guided onboarding\" (in-app/support) for Growth Accounts in APAC to increase premium penetration and reduce churn.\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.2216509416770031
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "pNQQaffCG470g8UP0p2VmA4",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 211,
+    "totalTokenCount": 1210,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 211
+      }
+    ]
+  }
+}

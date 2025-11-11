@@ -1,0 +1,55 @@
+{
+  "totalRuns": 10,
+  "model": "gemini-2.0-flash",
+  "dateRange": {
+    "earliest": "2025-11-09T17:51:34.111Z",
+    "latest": "2025-11-10T04:54:13.782Z"
+  },
+  "averageMetrics": {
+    "JSON": {
+      "format": "JSON",
+      "preflightTokenCount": 1404,
+      "responsePromptTokenCount": 1398,
+      "responseTotalTokenCount": 1667,
+      "conversionMs": 0.05,
+      "apiLatencyMs": 7532.960000000001
+    },
+    "TOON": {
+      "format": "TOON",
+      "preflightTokenCount": 1004,
+      "responsePromptTokenCount": 999,
+      "responseTotalTokenCount": 1195,
+      "conversionMs": 0.9199999999999999,
+      "apiLatencyMs": 6712.039999999999
+    },
+    "MARKDOWN": {
+      "format": "MARKDOWN",
+      "preflightTokenCount": 964,
+      "responsePromptTokenCount": 964,
+      "responseTotalTokenCount": 1196.2,
+      "conversionMs": 0.5499999999999999,
+      "apiLatencyMs": 7379.74
+    }
+  },
+  "averageDeltas": {
+    "toonVsJson": {
+      "tokenSavings": 400,
+      "tokenSavingsPercent": 28.5,
+      "apiLatencyDeltaMs": 820.9200000000001,
+      "conversionOverheadMs": 0.8300000000000001
+    },
+    "markdownVsJson": {
+      "tokenSavings": 440,
+      "tokenSavingsPercent": 31.300000000000004,
+      "apiLatencyDeltaMs": 153.22000000000017,
+      "conversionOverheadMs": 0.4699999999999999
+    },
+    "markdownVsToon": {
+      "tokenSavings": 40,
+      "tokenSavingsPercent": 4,
+      "apiLatencyDeltaMs": -667.6999999999998,
+      "conversionOverheadMs": -0.36
+    }
+  },
+  "fastestFormat": "TOON"
+}

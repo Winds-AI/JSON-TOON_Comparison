@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:52:49 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=1886",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here's a summary of the marketing performance data:\n\n*   **Key Trends:** North America shows strong revenue generation relative to spend. APAC has higher churn rates, particularly in the `APAC-RETENTION-CX` campaign. Experiments show positive lift across various metrics.\n*   **Risks:** High churn in APAC, especially in the `APAC-RETENTION-CX` campaign, threatens revenue. Lower premium penetration in Growth Accounts represents a missed upsell opportunity.\n*   **Strategic Experiments:**\n    1.  **Personalized Onboarding (Growth Accounts):** Address slow onboarding pain point by testing a tailored onboarding flow for Growth Accounts, focusing on key features and benefits.\n    2.  **Roadmap Transparency (Power Users):** Test an \"insider updates\" program for Power Users, providing early access to roadmap information and beta features to improve retention.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.34037954728681963
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "79QQaeqLL4_dqfkPuav1-Qg",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 1181,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 182
+      }
+    ]
+  }
+}

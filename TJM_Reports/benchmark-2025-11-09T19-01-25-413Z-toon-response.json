@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:01:25 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=1734",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here's a summary of the marketing performance data:\n\n*   **Key Trends:** North America shows strong ROI, especially NA-FREEMIUM-GROWTH. APAC has higher churn rates, particularly in APAC-RETENTION-CX. Experiments show positive lifts in key metrics.\n*   **Risks:** High churn in APAC-RETENTION-CX threatens revenue. Underperforming regions need immediate attention.\n*   **Strategic Experiments:**\n    1.  **Power Users:** Launch insider updates program to improve retention by addressing roadmap visibility.\n    2.  **Growth Accounts:** Deploy guided onboarding to improve retention by addressing slow onboarding.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.29567942899816174
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "A-UQadrCLNqy4-EPxu2E8Qg",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 136,
+    "totalTokenCount": 1135,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 136
+      }
+    ]
+  }
+}

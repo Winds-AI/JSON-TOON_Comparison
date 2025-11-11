@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:00:48 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=3155",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here's an analysis of the marketing performance data:\n\n*   **Key Trends:**\n    *   APAC-RETENTION-CX shows high revenue but also the highest churn.\n    *   NA-FREEMIUM-GROWTH has the lowest spend and revenue.\n    *   Tiered Rewards experiment in NA-LOYALTY-REVIVAL improved retention.\n    *   Upsell Progress Bar experiment in NA-FREEMIUM-GROWTH improved premium conversion.\n    *   Gamified Onboarding experiment in APAC-CROSSSELL-PLUS improved feature adoption.\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX despite high spend.\n    *   Low revenue in NA-FREEMIUM-GROWTH.\n    *   Power Users segment has low roadmap visibility and delayed feature releases.\n    *   Growth Accounts segment has slow onboarding and limited support hours.\n\n*   **Strategic Experiments:**\n    1.  **APAC Churn Reduction:** Implement a personalized support program in APAC-RETENTION-CX, targeting users likely to churn, based on usage patterns.\n    2.  **NA Freemium Value Add:** Bundle advanced analytics for Power Users in NA-FREEMIUM-GROWTH to increase premium penetration.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.23877857508284323
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "3uQQafWREZ-vjuMPrNOY8AM",
+  "usageMetadata": {
+    "promptTokenCount": 964,
+    "candidatesTokenCount": 267,
+    "totalTokenCount": 1231,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 964
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 267
+      }
+    ]
+  }
+}

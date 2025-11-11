@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Mon, 10 Nov 2025 04:54:13 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2601",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here's an analysis of the marketing performance data:\n\n*   **Key Trends:**\n    *   APAC-RETENTION-CX shows high revenue but also the highest churn rate.\n    *   NA-FREEMIUM-GROWTH has the lowest spend but decent revenue.\n    *   Experiments show positive lift in key metrics.\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX needs immediate attention.\n    *   Growth Accounts segment has low premium penetration.\n    *   Power Users are experiencing pain points that could lead to churn.\n\n*   **Strategic Experiments:**\n    1.  **APAC: Enhanced Support Initiative:** Address high churn by offering dedicated support to new users in the APAC region. Track `churnRate` and `customerSatisfaction`.\n    2.  **NA: Growth Account Premium Upsell:** Implement a targeted campaign promoting premium add-ons to Growth Accounts in North America, focusing on \"switch-and-save\" offers. Track `premiumConversion` and `averageRevenuePerUser`.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.26719580377851215
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "828RaYXdCsjug8UPtY2o8Ac",
+  "usageMetadata": {
+    "promptTokenCount": 964,
+    "candidatesTokenCount": 224,
+    "totalTokenCount": 1188,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 964
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 224
+      }
+    ]
+  }
+}

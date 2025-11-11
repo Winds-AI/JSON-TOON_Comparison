@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:54:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2757",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"keyTrends\": [\n      \"Upsell Progress Bar (NA) and Gamified Onboarding (APAC) showed positive lift in premium conversion and feature adoption, respectively.\",\n      \"APAC's churn rate is significantly higher than North America's, indicating a regional challenge.\",\n      \"Referral Booster (NA) and Localized Playbooks (APAC) are showing positive trends, but require further monitoring.\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC, especially in the APAC-RETENTION-CX campaign, threatens revenue and growth.\",\n      \"Potential for churn among Power Users due to lack of roadmap visibility and delayed feature releases.\"\n    ],\n    \"recommendations\": [\n      {\n        \"experiment\": \"Insider Updates Program\",\n        \"rationale\": \"Address Power Users' pain points (roadmap visibility) to improve retention. Target NA-LOYALTY-REVIVAL campaign.\"\n      },\n      {\n        \"experiment\": \"Guided Onboarding\",\n        \"rationale\": \"Address Growth Accounts' pain points (slow onboarding) to improve premium penetration. Target NA-FREEMIUM-GROWTH campaign.\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.21872779250588115
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "PNUQaePIHuW2juMPp5D96AM",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 269,
+    "totalTokenCount": 1667,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 269
+      }
+    ]
+  }
+}

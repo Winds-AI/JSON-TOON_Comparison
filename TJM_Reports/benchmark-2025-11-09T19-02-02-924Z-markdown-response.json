@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:02:03 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2701",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here's a summary of the marketing performance data:\n\n*   **Key Trends:**\n    *   APAC-RETENTION-CX shows high revenue but also the highest churn.\n    *   NA-FREEMIUM-GROWTH has the lowest spend but also the lowest revenue.\n    *   Experiments show positive lift in key metrics (premium conversion, referrals, retention, feature adoption, customer satisfaction).\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX needs immediate attention.\n    *   Low revenue in NA-FREEMIUM-GROWTH indicates inefficient spending or poor channel mix.\n\n*   **Strategic Experiments:**\n    1.  **APAC Churn Reduction:** Implement a personalized support program for churn-vulnerable users in APAC-RETENTION-CX, focusing on identified pain points.\n    2.  **NA Channel Optimization:** Test a new channel mix in NA-FREEMIUM-GROWTH, shifting budget from underperforming channels to those with higher potential ROI (e.g., partnerships).\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.24868915317294835
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "KeUQac2DI82H4-EP-bLg6Q8",
+  "usageMetadata": {
+    "promptTokenCount": 964,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 1186,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 964
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 222
+      }
+    ]
+  }
+}

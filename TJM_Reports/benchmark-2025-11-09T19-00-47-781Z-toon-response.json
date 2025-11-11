@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:00:47 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2224",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**TOON: Q3 2025 Marketing Performance**\n\n*   **Key Trends:**\n    *   NA: \"Upsell Progress Bar\" boosted premium conversions. \"Tiered Rewards\" improved retention.\n    *   APAC: \"Gamified Onboarding\" increased feature adoption. High churn in APAC-RETENTION-CX.\n    *   Referral program is showing early promise\n*   **Risks:**\n    *   High churn in APAC, especially in the APAC-RETENTION-CX campaign.\n    *   Underperforming regions are not specified, but APAC-RETENTION-CX is a candidate.\n*   **Strategic Experiments:**\n    1.  **APAC-RETENTION-CX: Personalized Support Flows:** Test personalized support flows based on user behavior to reduce churn.\n    2.  **NA-FREEMIUM-GROWTH: Bundle advanced analytics:** Test bundling advanced analytics for Power Users to increase premium penetration.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.2759670389109644
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "3eQQaY_sMZ-pjuMPyK6A2Qg",
+  "usageMetadata": {
+    "promptTokenCount": 999,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 1202,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 999
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 203
+      }
+    ]
+  }
+}

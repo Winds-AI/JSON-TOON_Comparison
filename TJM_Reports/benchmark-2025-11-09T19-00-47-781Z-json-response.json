@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:00:48 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2848",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar (NA) and Gamified Onboarding (APAC) showed positive lift in premium conversion and feature adoption, respectively.\",\n      \"Tiered Rewards (NA) improved retention.\",\n      \"APAC's churn rate is higher than North America's, especially in APAC-RETENTION-CX.\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC-RETENTION-CX campaign indicates potential issues with customer experience or product-market fit.\",\n      \"APAC's churn is significantly higher than NA's, despite higher spend and revenue.\"\n    ],\n    \"recommendations\": [\n      \"Experiment 1: Implement 'Guided Onboarding' for Growth Accounts in North America, mirroring the successful Gamified Onboarding in APAC, to address slow onboarding pain points.\",\n      \"Experiment 2: Launch 'Insider Updates Program' for Power Users in APAC, addressing lack of roadmap visibility and delayed feature releases, aiming to improve retention.\"\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.2898874767756058
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "3uQQabkJh7qO4w-o0pXpAw",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 236,
+    "totalTokenCount": 1634,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 236
+      }
+    ]
+  }
+}

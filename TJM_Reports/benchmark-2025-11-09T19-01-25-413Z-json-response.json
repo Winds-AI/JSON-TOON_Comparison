@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 19:01:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2771",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar in NA showed a positive lift in premium conversions.\",\n      \"Tiered Rewards program in NA improved retention.\",\n      \"Gamified Onboarding in APAC increased feature adoption.\",\n      \"Localized Playbooks in APAC are showing improved customer satisfaction.\"\n    ],\n    \"risks\": [\n      \"APAC's churn rate is significantly higher than North America's.\",\n      \"APAC-RETENTION-CX campaign has the highest churn rate at 7.1%.\",\n      \"Growth Accounts segment has low premium penetration.\"\n    ],\n    \"recommendations\": [\n      {\n        \"experiment\": \"Guided Onboarding for Growth Accounts\",\n        \"rationale\": \"Address slow onboarding pain point and increase premium penetration.\"\n      },\n      {\n        \"experiment\": \"Targeted Retention Campaign in APAC-RETENTION-CX\",\n        \"rationale\": \"Address high churn rate with localized offers and support.\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.21511536965638528
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "A-UQafLNO8HWjuMPucnG6AI",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 231,
+    "totalTokenCount": 1629,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 231
+      }
+    ]
+  }
+}

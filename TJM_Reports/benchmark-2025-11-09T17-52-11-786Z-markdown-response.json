@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:52:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2608",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here's a summary of the marketing performance data:\n\n*   **Key Trends:**\n    *   APAC-RETENTION-CX shows high revenue but also the highest churn.\n    *   NA-FREEMIUM-GROWTH has the lowest spend and revenue.\n    *   Tiered Rewards experiment in NA-LOYALTY-REVIVAL improved retention.\n    *   Upsell Progress Bar experiment in NA-FREEMIUM-GROWTH improved premium conversion.\n\n*   **Risks:**\n    *   High churn in APAC-RETENTION-CX needs immediate attention.\n    *   Low revenue in NA-FREEMIUM-GROWTH indicates potential issues with acquisition or monetization.\n\n*   **Strategic Experiments:**\n    1.  **APAC-RETENTION-CX: Churn Reduction Campaign:** Implement a targeted campaign addressing the pain points of Power Users (roadmap visibility, feature releases) to improve retention.\n    2.  **NA-FREEMIUM-GROWTH: Guided Onboarding:** Deploy guided onboarding for Growth Accounts to improve activation and conversion rates.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.2447272685536167
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "ytQQaY79E9iljuMPveyL0Ao",
+  "usageMetadata": {
+    "promptTokenCount": 964,
+    "candidatesTokenCount": 228,
+    "totalTokenCount": 1192,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 964
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 228
+      }
+    ]
+  }
+}

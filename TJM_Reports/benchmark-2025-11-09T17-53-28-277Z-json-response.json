@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:53:29 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=3097",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar (NA) and Gamified Onboarding (APAC) showed positive lift in premium conversion and feature adoption, respectively.\",\n      \"Tiered Rewards (NA) improved retention.\",\n      \"APAC churn rates are higher than North America, particularly in APAC-RETENTION-CX.\"\n    ],\n    \"risks\": [\n      \"High churn in APAC-RETENTION-CX campaign despite investment in customer support channels.\",\n      \"Potential missed cross-sell opportunities with Growth Accounts due to low premium penetration.\"\n    ],\n    \"recommendations\": [\n      \"Prioritize churn reduction strategies in APAC, especially for APAC-RETENTION-CX.\",\n      \"Focus on increasing premium penetration among Growth Accounts.\"\n    ],\n    \"nextExperiments\": [\n      {\n        \"region\": \"APAC\",\n        \"campaign\": \"APAC-RETENTION-CX\",\n        \"experiment\": \"Implement proactive support outreach based on usage patterns to reduce churn.\"\n      },\n      {\n        \"region\": \"North America\",\n        \"campaign\": \"NA-FREEMIUM-GROWTH\",\n        \"experiment\": \"Test bundling advanced analytics for Power Users to increase premium conversion.\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.1835136545570664
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "FtUQaZqHH7yUg8UP5eq0iAg",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 289,
+    "totalTokenCount": 1687,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 289
+      }
+    ]
+  }
+}

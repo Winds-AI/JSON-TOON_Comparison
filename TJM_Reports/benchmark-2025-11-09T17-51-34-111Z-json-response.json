@@ -1,0 +1,50 @@
+{
+  "sdkHttpResponse": {
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Sun, 09 Nov 2025 17:51:35 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "server-timing": "gfet4t7; dur=2964",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"summary\": {\n    \"trends\": [\n      \"Upsell Progress Bar and Tiered Rewards experiments show positive lift in premium conversion and retention.\",\n      \"Referral Booster and Localized Playbooks are running with positive initial results.\",\n      \"APAC's churn rate is higher than North America's, indicating a potential issue.\"\n    ],\n    \"risks\": [\n      \"High churn rate in APAC-RETENTION-CX campaign needs immediate attention.\",\n      \"Potential missed opportunities in Growth Accounts segment due to slow onboarding.\"\n    ],\n    \"recommendations\": [\n      \"Prioritize churn reduction strategies in APAC, focusing on customer satisfaction.\",\n      \"Implement guided onboarding for Growth Accounts to improve premium penetration.\"\n    ],\n    \"nextExperiments\": [\n      {\n        \"region\": \"APAC\",\n        \"campaign\": \"APAC-RETENTION-CX\",\n        \"experiment\": \"Personalized Support Flows\",\n        \"objective\": \"Reduce churn by improving support experience.\"\n      },\n      {\n        \"region\": \"North America\",\n        \"campaign\": \"NA-FREEMIUM-GROWTH\",\n        \"experiment\": \"Bundle Advanced Analytics\",\n        \"objective\": \"Increase premium conversion among Power Users.\"\n      }\n    ]\n  }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.21564681791164006
+    }
+  ],
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "pNQQacfEG5L1g8UPof_aqA4",
+  "usageMetadata": {
+    "promptTokenCount": 1398,
+    "candidatesTokenCount": 283,
+    "totalTokenCount": 1681,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1398
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 283
+      }
+    ]
+  }
+}
